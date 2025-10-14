@@ -19,6 +19,6 @@ export const appConfig: ApplicationConfig = {
       provideStorage(() => getStorage()),
       provideMessaging(() => getMessaging())
     ),
-    provideRouter(routes)
+    provideRouter(routes), provideFirebaseApp(() => initializeApp({"projectId":"codelab-tutorial-93aed","appId":"1:897744610925:web:6a2fc66872887b56170164","storageBucket":"codelab-tutorial-93aed.firebasestorage.app","apiKey":"AIzaSyAB53_MZ-OqQlPI88uHukxiY6SJWAwgecM","authDomain":"codelab-tutorial-93aed.firebaseapp.com","messagingSenderId":"897744610925","projectNumber":"897744610925","version":"2"})), provideAuth(() => getAuth()), provideFirestore(() => getFirestore()), provideMessaging(() => getMessaging()), provideStorage(() => getStorage())
   ],
 };
