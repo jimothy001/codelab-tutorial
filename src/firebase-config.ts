@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDzmNrPylxc6_49WFohbs4jEMdRo29lCGE",
-  authDomain: "codelab-tutorial-389c6.firebaseapp.com",
-  projectId: "codelab-tutorial-389c6",
-  storageBucket: "codelab-tutorial-389c6.firebasestorage.app",
-  messagingSenderId: "993747698785",
-  appId: "1:993747698785:web:ed889e028814814fc69620"
+  apiKey: "AIzaSyDAVXRAMKvWNaTS87LL-UVCODJ6rZY3Ig4",
+  authDomain: "codelab-tutorial-e7e6b.firebaseapp.com",
+  projectId: "codelab-tutorial-e7e6b",
+  storageBucket: "codelab-tutorial-e7e6b.firebasestorage.app",
+  messagingSenderId: "768786293315",
+  appId: "1:768786293315:web:7edeb260f61d926aa1eaf6"
 };
 
 // Initialize Firebase
